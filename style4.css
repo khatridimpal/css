@@ -1,0 +1,50 @@
+
+#text{
+    width:500px;
+    /* height: 500px; */
+    border:1px solid black;
+    color: aquamarine;
+    /* text-align: justify; */ 
+    /* direction: ltr; */
+
+    /* TEXT DECORATION  */
+    text-decoration: underline;
+    text-decoration: overline;
+    text-decoration: line-through;
+    text-decoration: none;
+
+    /* TEXT TRANSFORM  */
+    text-transform: uppercase;
+    text-transform: lowercase;
+    text-transform: capitalize;
+
+    line-height: 30px;
+
+    /* TEXT INTENT  */
+    text-indent: 30px;
+
+    /* LETTER SPACING  */
+    /* letter-spacing: 10px; */
+
+    /* word-spacing: 10px; */
+
+    white-space: pre;
+    white-space: nowrap;
+    white-space: normal;
+
+    /* word-wrap:break-word; */
+}
+
+/* #img{
+    width: 50px;
+    border: 1px solid rebeccapurple;
+    vertical-align: middle;
+} */
+
+
+#shadow{
+    font-size: 50px;
+    text-shadow: 5px 10px 5px rosybrown;
+    /* vertical horizontal blur  color */
+    writing-mode: vertical-lr;
+}

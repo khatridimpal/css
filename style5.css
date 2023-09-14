@@ -1,0 +1,23 @@
+a{
+    text-decoration: none;
+}
+
+/* ANCOR TAG STYLE
+ link (upar hona chahiye) visited hover active (niche hona chahiye)  */
+
+ /* CSS STATE  */
+ a:link{
+    color: hotpink;
+ }
+
+ a:visited{
+    color: black;
+ }
+
+ a:hover{
+    color: gold;
+ }
+
+ a:active{
+    color: saddlebrown;
+ }
