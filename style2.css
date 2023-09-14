@@ -1,0 +1,15 @@
+#border{
+    /* border-style: inset;
+    border-width: 5px;
+    border-color: goldenrod ; */
+
+    border: 5px solid green;
+
+    /* border-top-style: solid;
+    border-top-width: 10px;
+    border-top-color: lightcoral; */
+
+    /* border-radius: 10px 20px 30px 2px; */
+
+    border-top-left-radius: 10px;
+}

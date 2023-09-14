@@ -1,0 +1,28 @@
+/* p{
+    color: red;
+}
+
+.color1
+{
+    color: green;
+}
+
+#p3
+{
+    color: violet;
+} */
+
+/* class:7 background  */
+#bg{
+    /* color: salmon; */
+    background-image: url(image/bg4.jpg),url(image/bg3.jpg);
+    background-color: forestgreen;
+    background-repeat: no-repeat;
+    background-position:left top,right bottom;
+    /* background-size: cover; (img blur nahi hota(background img thoda cut hota he */
+    /* background-size: contain; (background cover nahi hota )*/
+    /* background-attachment: fixed; */
+    /* background: #ffffff url(image/bg.jpg) no-repeat fixed 5% 10%; */
+    /* ORDER =     color      image          repeat  attachment position*/
+
+}
