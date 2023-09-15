@@ -1,0 +1,28 @@
+
+html{
+    font-size: 10px;
+
+}
+
+#parent{
+    /* border: 1px solid lightcoral;
+    height: 50vh; */
+
+    /* width: 400pc;
+    width: 400pt;
+    width: 400px; */
+
+    font-size: 10vw;
+
+    /* font-size: 30px; */
+
+    /* font-size: 4rem; */
+}
+
+#child{
+    /* border: 1px solid orange;
+    width: 50%; */
+
+    /* font-size: 2em;   */
+    font-size: 2rem;
+}

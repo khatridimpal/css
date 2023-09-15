@@ -1,5 +1,11 @@
+@font-face {
+    font-family: abc;
+    src: url(fonts/magica.ttf);
+}
+
 h1{
     /* font-weight: bold; */
+    font-family: abc;
 }
 
 p{
@@ -8,6 +14,12 @@ p{
     font-style: italic; */
 
     /* font-variant: small-caps; */
-    font-size: 30px;
+    font-size: 25px;
+    
+     font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-style: italic; 
+
+
 }
 

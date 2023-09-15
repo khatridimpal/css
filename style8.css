@@ -1,0 +1,17 @@
+div{
+    border: 1px solid gold;
+    cursor: pointer;
+    cursor: auto;
+    cursor: all-scroll;
+    cursor: cell;
+    cursor: col-resize;
+    cursor: crosshair;
+    cursor: e-resize;
+    cursor: grab;
+    cursor: help;
+    cursor: not-allowed;
+    cursor: progress;
+    cursor: wait;
+    cursor: zoom-in;
+    cursor: zoom-out;
+}
