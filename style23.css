@@ -1,0 +1,33 @@
+/* DISPLAY PROPETY  */
+
+/* 1.Block :pura width(div,p,h1,form)
+# new line
+# full width
+# height and width
+
+2.inline :jetna jaruri he wahi leta hai(a,img,span)
+# not new line
+# not full width
+# not height and width
+
+3.inline-block 
+# not new line
+# not full width
+# height and width
+
+4.none */
+
+.display{
+    border: 1px solid rebeccapurple;
+    height: 20px;
+    width: 50%;
+    display: inline-block;
+}
+
+#div1{
+    height: 200px;
+    display: none;
+    /* visibility: hidden; */
+}
+
+

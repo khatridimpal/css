@@ -1,0 +1,23 @@
+/* pseudo element */
+
+/* selector::pseudo-element{
+
+} */
+
+p::first-letter{
+    font-size: 35px;
+    color: goldenrod;
+}
+
+h1::before{
+    content: url(image/cancel.jpg);
+}
+
+h1::after{
+    content: " added after";
+}
+
+::selection{
+    color: rebeccapurple;
+    background: yellow;
+}

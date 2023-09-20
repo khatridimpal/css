@@ -1,0 +1,16 @@
+#green{
+    color: green;
+}
+
+#blue{
+    color: blue;
+}
+
+#inline{
+    color: initial;
+}
+
+#inherite
+{
+    color: inherit; /*parent ka color leta he */
+}

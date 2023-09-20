@@ -1,0 +1,56 @@
+/* POSITION  &LAYERS AND Z-INDEX*/
+/* 1. STATIC (DEFALUT) -NORMAL FLOW
+2. RELATIVE
+3. FIXED
+4. ABSOLUTE
+
+1. TOP
+2. BOTTOM 
+3. LEFT 
+4. RIGHT */
+
+body{
+    height: 1000px;
+}
+#parent{
+    border: 1px solid black;
+    padding: 20px;
+    width: 50%;
+    margin: 100px;
+}
+
+#one{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    display: inline-block;
+    /* position: absolute;
+    top: 0px;
+    bottom: 0px; */
+    position: relative;
+    z-index: 2;
+}
+#two{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    display: inline-block;
+    position: relative;
+    top: 50px;
+    left: -50px;
+    z-index: 3;
+
+}
+#three{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    display: inline-block;
+    /* position: fixed;
+    bottom: 10px;
+    right: 10px; */
+    position: relative;
+    top: 100px;
+    left: -100px;
+    z-index: 1;
+}

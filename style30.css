@@ -1,0 +1,23 @@
+/* print specific style in css  */
+@media screen{
+    p{
+        font-size: 20px;
+    }
+}
+
+@media print{
+    p{
+        font-size: 30px;
+    }
+    img{
+        display: none;
+    }
+    div{
+        width: 50px;
+    }
+}
+
+
+img{
+    height: 200px;
+}

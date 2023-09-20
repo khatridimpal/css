@@ -1,0 +1,16 @@
+/* BOX-SIZING */
+
+#div1{
+    background-color: saddlebrown;
+    width: 600px;
+    height: 200px;
+}
+
+#div2{
+    background-color: khaki;
+    width: 600px;
+    height: 200px;
+    padding: 50px;
+    border: 1px solid black;
+    box-sizing: border-box;
+}

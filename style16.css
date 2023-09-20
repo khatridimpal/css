@@ -1,0 +1,26 @@
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    border-spacing: 15px 25px;
+    empty-cells: hide;
+    table-layout: auto;
+    /* width: 100px; */
+}
+caption{
+    border: 1px solid black;
+    caption-side: bottom;
+}
+th{
+    border: 1px solid black; 
+    height: 30px;  
+    padding: 10px;
+    text-align: right;
+}
+
+td{
+    border: 1px solid black;
+    height: 20px;
+    padding: 5px;
+    text-align: center;
+    vertical-align: bottom;
+}

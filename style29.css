@@ -1,0 +1,59 @@
+/* CSS ANIMATION  from=0% to=100% */
+
+@keyframes changecolor{
+    /* 0%{
+        background-color: red;
+    }
+    25%{
+        /* background-color: #663399; 
+        width: 300px;
+    }
+    50%{
+        background-color: navy;
+    }
+    75%{
+        /* background-color: olive; 
+        width: 200px;
+    }
+    100%{
+        background-color: yellow;
+    } */
+
+    0%{background-color: red; border-radius: 10%;}
+    10%{background-color: yellow; border-radius: 20%;}
+    20%{background-color: orange; border-radius: 30%;}
+    30%{background-color: rgb(255, 0, 200); border-radius: 40%;}
+    40%{background-color: palegreen; border-radius: 50%;}
+    50%{background-color: lavender; border-radius: 40%;}
+    60%{background-color: blue; border-radius: 30%;}
+    70%{background-color: lawngreen; border-radius: 20%;}
+    80%{background-color: purple; border-radius: 10%;}
+    90%{background-color: olive; border-radius: 10%;}
+    100%{background-color: aqua; border-radius: 10%;}
+}
+
+#animate{
+    background-color: lawngreen;
+    height: 200px;
+    width: 200px;
+    animation-name: changecolor;
+    animation-duration: 2s;
+    /* animation-delay: 2s; */
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+/* #animate2{
+    background-color: lawngreen;
+    height: 200px;
+    width: 200px;
+    animation-name: changecolor;
+    animation-duration: 5s;
+    /* animation-delay: 2s; 
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+    animation-direction: alternate;
+    animation-direction: alternate-reverse;
+    animation-timing-function: ease-in-out;
+    animation-timing-function: linear;
+} */

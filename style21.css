@@ -1,0 +1,29 @@
+/* PSEUDO CLASS  */
+
+/* selector:pesudo-class{
+
+} */
+
+li:first-child{
+    color: rebeccapurple;
+}
+li:last-child{
+    color: red;
+}
+
+li:nth-child(4){
+    color: aqua;
+}
+
+li:nth-child(even){
+    color: palegreen;
+}
+
+li:nth-child(3n+0){
+    color: lawngreen;
+}
+
+input:focus{
+    border: 3px solid black;
+}
+

@@ -1,0 +1,65 @@
+/* FLOAT AND CLEAR  */
+/* img{
+    width: 100px;
+    height: auto;
+}
+
+#img1{
+    float: right;
+}
+
+#img2{
+    float: left;
+} */
+
+/* ul{
+    background-color: hotpink;
+    list-style-type: none;
+    border: 1px solid black; 
+    overflow: auto;
+}
+
+li{
+    color: aliceblue;
+    padding: 10px 10px;
+    float: left;
+} */
+
+/* p{
+    border: 1px solid black;
+    overflow: auto;
+}
+img{
+    height: auto;
+    width: 100px;
+    /* float: right; 
+}
+
+#img1{
+    float: right;
+}
+
+#img2{
+    float: right;
+    clear: right;
+} */
+
+
+#content{
+    width: 70%;
+    background-color: green;
+    height: 200px;
+    float: left;
+}
+
+#sidebar{
+    width: 30%;
+    background-color: indianred;
+    height: 150px;
+    float: right;
+}
+
+#footer{
+    background-color: yellowgreen;
+    clear: both;
+}

@@ -1,0 +1,11 @@
+/* object -FIT (FORENTED IMAGE) */
+
+img{
+    border: 1px solid black;
+    height: 400px;
+    width: 400px;
+    object-fit: contain;
+    object-fit: fill;
+    object-fit: cover;
+    object-position: top center;
+}

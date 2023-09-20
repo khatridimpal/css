@@ -1,0 +1,22 @@
+/* CSS TRANSITION  */
+#div1{
+    height: 100px;
+    width: 100px;
+    margin: 100px;
+    border: 1px solid red;
+    background-color: yellowgreen;
+    /* transition-property: width;
+    transition-property: background-color; */
+    transition-property: all;
+    transition-duration: 1s;
+    /* transition-delay: 500ms; */
+    transition-timing-function: ease-in-out;
+    transition: property,duration,timing-function,delay;
+    transition: width 2s,height 3s;
+}
+
+#div1:hover{
+    width: 200px;
+    height: 300px;
+    background-color: purple;
+}
